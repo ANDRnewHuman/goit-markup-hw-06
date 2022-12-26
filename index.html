@@ -387,18 +387,18 @@
 <!-- footer#3 -->
             <div class="footer-mail">
                 <p class="footer-text-p">Subscribe</p>
-                <ul class="mail-button">
-                    <li class="footel-label">
+                <div class="mail-button">
+                    <div class="footel-label">
                         <input type="email" name="mail" id="mail" placeholder="E-mail"/>
-                    </li>
+                    </div>
 
-                    <li class="button-telegram">
+                    <div class="button-telegram">
                             <button class="footer-button">Subscribe</button>
                             <svg class="icon-telegram" width="24px" height="20px">
                                 <use href="./images3/sprite2.svg#icon-icon-send-2"></use>
                             </svg>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -412,11 +412,9 @@
     <div class="modal">
         <div class="div-model-button">
             <button class="model-button" data-modal-close></button>
-            <a href="">
                 <svg class="modal-x" width="8px" height="8px">
                     <use href="./images3/sprite2.svg#icon-Vector-2"></use>
                 </svg>
-            </a>
             
         </div>
             <form class="form">
@@ -462,13 +460,12 @@
 
 
                 <div role="group" class="form-text-check">
-                    <input type="checkbox" name="checkbox" value="box" id="box" />
-                    <label for="box">I accept the terms and conditions of the 
-                        <span> 
-                            <a href="">
-                                Privacy Policy
-                            </a>
-                        </span>
+                    <label class="box">
+                    <input class="checkbox" type="checkbox" name="checkbox" value="box" id="box" />
+                    <span class="icon-checkbox" ></span>
+                    I accept the terms and conditions of the 
+                            <a href="">Privacy Policy</a>
+
                     </label>
                 </div>
 
